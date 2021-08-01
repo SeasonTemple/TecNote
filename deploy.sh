@@ -5,6 +5,7 @@ set -e
 
 # 更新依赖
 yarn install
+
 # 生成静态文件
 yarn docs:build
 
