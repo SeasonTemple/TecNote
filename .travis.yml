@@ -7,5 +7,10 @@ cache:
     - node_modules
 before_install:
   - export TZ='Asia/Shanghai' # 设置时区
-script:
+install:
+  - yarn install
+after_script:
   - ./deploy.sh
+branches:
+  only:
+  - master # 触发持续集成的分支

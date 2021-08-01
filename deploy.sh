@@ -3,9 +3,6 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 更新依赖
-yarn install
-
 # 生成静态文件
 yarn docs:build
 
@@ -31,4 +28,4 @@ git config --local user.email "512743454@qq.com"
 # 如果使用 travis 持续集成
 git push -f https://${access_token}@github.com/SeasonTemple/TecNote.git master:gh-pages
 
-cd -
+# cd -
