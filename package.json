@@ -1,0 +1,16 @@
+{
+    "name": "vue-press",
+    "version": "1.0.0",
+    "description": "tec blog",
+    "main": "index.js",
+    "author": "季寺 <fnc1997@foxmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "vuepress": "^2.0.0-beta.23"
+    },
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    },
+    "dependencies": {}
+}
