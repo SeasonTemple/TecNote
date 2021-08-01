@@ -9,7 +9,7 @@ before_install:
   - export TZ='Asia/Shanghai' # 设置时区
 install:
   - yarn install
-after_script:
+script:
   - ./deploy.sh
 branches:
   only:
